@@ -3,15 +3,15 @@
 
 <suite name="Cnn UI Tests" parallel="tests">
 
-    <parameter name="sauceUserName" value="ismailosmanjan"/>
+    <parameter name="userName" value="ismailosmanjan"/>
     <parameter name="key" value="370df818-9b70-4596-a315-8a9b81bb6953"/>
 
     <!--  If useSauce is false then all tests are on local -->
-    <parameter name="useSauceLab" value="true"/>
+    <parameter name="useSauceLabs" value="true"/>
     <parameter name="localPlatform" value="false"/>
 
     <parameter name="url" value="http://www.cnn.com"/>
-    <parameter name="userName" value=""/>
+   <!-- <parameter name="userName" value=""/> -->
     <parameter name="password" value=""/>
 
     <parameter name="" value=""/>

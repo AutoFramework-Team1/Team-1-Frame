@@ -3,16 +3,16 @@
 <suite name="Ebay UI Tests" parallel="tests">
 
 
-    <parameter name="sauceUserName" value="ismailosmanjan"/>
+    <parameter name="userName" value="ismailosmanjan"/>
     <parameter name="key" value="370df818-9b70-4596-a315-8a9b81bb6953"/>
 
     <!-- If useSauce is false then all tests are on local-->
-    <parameter name="useSauceLab" value="true"/>
+    <parameter name="useSauceLabs" value="true"/>
     <parameter name="localPlatform" value="false"/>
     <!--<parameter name="localPlatform" value="false"/>-->
 
     <parameter name="url" value="http://www.ebay.com"/>
-    <parameter name="userName" value=""/>
+    <!--  <parameter name="userName" value=""/> -->
     <parameter name="password" value=""/>
 
 
@@ -21,7 +21,7 @@
     <parameter name="" value=""/>
 
     <test name="Ebay on Windows 8 with firefox Tests">
-        <parameter name="os" value="Windows 8"/>
+        <parameter name="os" value="Mac 10.8.5"/>
         <!--<parameter name="browser" value="googlechrome"/>-->
         <parameter name="browser" value="firefox"/>
         <parameter name="browserVersion" value="28.0"/>
