@@ -75,6 +75,9 @@
                 <module>ebay</module>
                 <module>generic</module>
             </modules>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
         </profile>
 
 
@@ -84,7 +87,12 @@
                 <module>cnn</module>
                 <module>generic</module>
              </modules>
+             <activation>
+                 <activeByDefault>true</activeByDefault>
+
+             </activation>
          </profile>
+       
 
     </profiles>
 
