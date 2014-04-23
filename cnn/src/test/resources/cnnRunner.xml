@@ -20,8 +20,8 @@
     <!--DesiredCapabilities caps = DesiredCapabilities.firefox();-->
     <!-- caps.setCapability("platform", "Windows 8"); -->
     <!-- caps.setCapability("version", "25"); -->
-    <test name="Cnn on Mac OS X with firefox Tests">
-        <parameter name="os" value="Mac10.8"/>
+    <test name="Cnn on Windows 8 with firefox Tests">
+        <parameter name="os" value="Windows 8"/>
         <!-- <parameter name="browser" value="googlechrome"/> -->
         <parameter name="browser" value="firefox"/>
         <parameter name="browserVersion" value="28.0"/>

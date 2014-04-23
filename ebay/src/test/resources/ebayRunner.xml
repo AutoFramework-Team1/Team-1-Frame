@@ -21,7 +21,7 @@
     <parameter name="" value=""/>
 
     <test name="Ebay on Windows 8 with firefox Tests">
-        <parameter name="os" value="Mac 10.8.5"/>
+        <parameter name="os" value="Windows 8"/>
         <!--<parameter name="browser" value="googlechrome"/>-->
         <parameter name="browser" value="firefox"/>
         <parameter name="browserVersion" value="28.0"/>
