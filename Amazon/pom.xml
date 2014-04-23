@@ -46,7 +46,7 @@
 
     </dependencies>
     <properties>
-        <testRunner>amazonrunner.xml</testRunner>
+        <testRunner>amazRunner.xml</testRunner>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <build>
