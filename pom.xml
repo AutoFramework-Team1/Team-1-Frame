@@ -92,6 +92,17 @@
 
              </activation>
          </profile>
+        <profile>
+            <id>amazon-market</id>
+            <modules>
+                <module>Amazon</module>
+                <module>generic</module>
+            </modules>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+
+            </activation>
+        </profile>
        
 
     </profiles>
