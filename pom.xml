@@ -93,7 +93,7 @@
              </activation>
          </profile>
         <profile>
-            <id>amazon-market</id>
+            <id>amazon-runner</id>
             <modules>
                 <module>Amazon</module>
                 <module>generic</module>
