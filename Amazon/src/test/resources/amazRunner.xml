@@ -26,8 +26,10 @@
         <parameter name="browserVersion" value="28.0"/>
         <!-- <parameter name="browser" value="safari"/> -->
         <classes>
-            <class name="Home.AmazonBase"/>
+
+            <class name="Home.SignIn"/>
             <class name="Home.Deals"/>
+            <class name="Home.SignIn"/>
 
         </classes>
     </test>
