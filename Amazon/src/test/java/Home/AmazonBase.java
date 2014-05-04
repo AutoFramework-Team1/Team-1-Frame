@@ -19,16 +19,16 @@ public class AmazonBase extends Base{
         navigateToUrl("http://www.amazon.com");
         windowMaximize();}
 
-
     @Test
     public void getTitle(){
         System.out.println(driver.getTitle().toUpperCase());
     }
     @Test
-    public void dealsOfTheDay(){
-        driver.findElement(By.linkText("Today's Deals")).click();
-
+    public void TryPrime(){
+        driver.findElement(By.id("nav-your-prime")).click();
+        driver.findElement(By.className("a-button-inner")).click();
     }
+
     @Test
     public void goBacktoMain(){
         navigateToUrl("http://www.amazon.com");
@@ -41,19 +41,12 @@ public class AmazonBase extends Base{
         driver.findElement(By.className("nav-submit-input")).click();
             }
     @Test
-    public void signUpPrime(){
+    public void viewDepartments(){
         goBacktoMain();
-        driver.findElement(By.className("Prime")).click();
-        driver.findElement(By.className("a-button-input")).click();
-        driver.findElement(By.className("ap_col1 ap_right ap_no_collapse")).click();
-        driver.findElement(By.id("ap_customer_name")).sendKeys(Keys.TAB, "Barrack");
-    }
+        driver.findElement(By.id("nav-shop-all-button")).click();
+            }
+   
 
-    @AfterClass
-    public void tearDown() throws Exception {
-        driver.close();
-
-    }
 
 
 }

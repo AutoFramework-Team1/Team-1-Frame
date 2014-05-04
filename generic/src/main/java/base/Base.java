@@ -12,6 +12,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.io.IOException;
@@ -28,7 +29,7 @@ public class Base {
 
     public WebDriver driver = null;
 
-    @Parameters({"useSauceLabs","userName", "key", "os", "browser", "browserVersion","url"})
+    @Parameters ({"useSauceLabs","userName", "key", "os", "browser", "browserVersion","url"})
     @BeforeClass
     public void setUp(boolean useSauceLabs,String userName,String key,String os, String browser,String browserVersion,
                       String url) throws IOException {

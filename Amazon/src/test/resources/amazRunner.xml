@@ -5,9 +5,9 @@
     <parameter name="userName" value="ammarkhan87"/>
     <parameter name="key" value="6bddbc42-7fa7-4d75-b2b3-6deb005c50d4"/>
 
-    <!--  If useSauce is false then all tests are on local -->
-    <parameter name="useSauceLabs" value="true"/>
-    <parameter name="localPlatform" value="false"/>
+    <!--  If useSauce is false then all tests are on loc al -->
+    <parameter name="useSauceLabs" value="false"/>
+    <parameter name="localPlatform" value="true"/>
 
     <parameter name="url" value="http://www.amazon.com"/>
     <!-- <parameter name="userName" value=""/> -->
@@ -27,7 +27,8 @@
         <!-- <parameter name="browser" value="safari"/> -->
         <classes>
             <class name="Home.AmazonBase"/>
-            <class name="Home.DealLists"/><!-- <class name= "LogIn"/> -->
+            <class name="Home.Deals"/>
+
         </classes>
     </test>
     <!--  Test specific params are defined below this -->
